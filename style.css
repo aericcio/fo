@@ -1,9 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Philosopher:700|Orbitron|Six+Caps');
 
-body {
-	padding:2em;
-}
 .title {
 	text-align: center;
 	color: #FFF;
@@ -75,52 +72,54 @@ h3{
 body {
   background:  linear-gradient(45deg,rgba(255, 102, 255,.25),rgba(255, 80, 80,.25),rgba(0, 255, 0,.25),rgba(0, 204, 255,.25)), url(https://media.giphy.com/media/26tn6Me6pD4Bel37G/giphy.gif);
   background-size:125% 125%;
+background-position: 50% 50%;
+
   
-   -webkit-animatison: AnimationName 4s ease infinite;
-  -moz-animation: AnimationName 4s ease infinite;
-  animation: AnimationName 4s ease infinite;
+   -webkit-animatison: AnimationName 2s ease infinite;
+  -moz-animation: AnimationName 2s ease infinite;
+  animation: AnimationName 2s ease infinite;
   
 }
 
 @-webkit-keyframes AnimationName {
   0% {
-    background-position: 0% 0%
+  background-size:125% 125%;
   }
 
   50% {
-    background-position: 50% 50%
+  background-size:150% 150%;
   }
 
   100% {
-    background-position: 0% 0%
+  background-size:125% 125%;
   }
 }
 
 @-moz-keyframes AnimationName {
   0% {
-    background-position: 0% 0%
+  background-size:125% 125%;
   }
 
   50% {
-    background-position: 50% 50%
+  background-size:150% 150%;
   }
 
   100% {
-    background-position: 0% 0%
+  background-size:125% 125%;
   }
 }
 
 @keyframes AnimationName {
-  0% {
-    background-position: 0% 0%
+   0% {
+  background-size:125% 125%;
   }
 
   50% {
-    background-position: 50% 50%
+  background-size:150% 150%;
   }
 
   100% {
-    background-position: 0% 0%
+  background-size:125% 125%;
   }
 }
 
