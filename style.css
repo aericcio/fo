@@ -74,13 +74,13 @@ body {
   background-size:100% 100%;
 background-position: 50% 50%;
 
-  
+  /*
    -webkit-animatison: AnimationName 14.5s ease infinite;
   -moz-animation: AnimationName 14.5s ease infinite;
   animation: AnimationName 14.5s ease infinite;
-  
+  */
 }
-
+/*
 @-webkit-keyframes AnimationName {
   0% {
   background-size:100% 100%;
@@ -130,3 +130,4 @@ background-position: 50% 50%;
   }
 }
 
+*/
