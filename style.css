@@ -17,7 +17,7 @@
 #format-test {
     padding:25px;
     border-color: white;
-    border: 10px solid transparent;
+    border: 10px solid;
     border-image:url(https://media.giphy.com/media/xT8qB7fZ7uIykBIWOc/giphy.gif) 30 round;
     transform: scale(.75,.75);
 }
